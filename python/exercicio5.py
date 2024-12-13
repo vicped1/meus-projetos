@@ -14,7 +14,7 @@ except:
 """
 data_local = input('digite a data de hoje: ')
 try:
-    data = float(data_local)
+    data = int(data_local)
     if data >= 0 and data < 12:
         print('Bom dia')
     elif data >= 12 and data < 18:
