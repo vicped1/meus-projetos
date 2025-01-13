@@ -25,20 +25,15 @@ while True:
     if len(operador) > 1:
         print('digite apenas um operador')
         continue
-
-    if operador == '+':
+    
+    elif operador == '+':
         print(f'{num_1 + num_2}')
-    
-    if operador == '-':
+    elif operador == '-':
         print(f'{num_1 - num_2}')
-
-    if operador == '/':
+    elif operador == '/':
         print(f'{num_1 / num_2}')
-
-    if operador == '*':
+    elif operador == '*':
         print(f'{num_1 * num_2}')
-    
-
 
     sair = input('quer sair? [s] pra sim ').lower().startswith('s')
     
