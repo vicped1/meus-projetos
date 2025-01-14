@@ -29,7 +29,7 @@ while True:
         print('digite apenas um operador')
         continue
 
-    print('realizando a sua conta: ', end='')
+    print('resultado da sua conta: ', end='')
     if operador == '+':
         print(f'{num_1 + num_2}')
     elif operador == '-':
