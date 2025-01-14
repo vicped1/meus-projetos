@@ -5,6 +5,9 @@ while True:
 
     numeros_validos = None
 
+    num_1 = 0
+    num_2 = 0
+
     try:
         num_1 = float(primeiroNumero)
         num_2 = float(segundoNumero)
@@ -26,7 +29,8 @@ while True:
         print('digite apenas um operador')
         continue
 
-    elif operador == '+':
+    print('realizando a sua conta: ', end='')
+    if operador == '+':
         print(f'{num_1 + num_2}')
     elif operador == '-':
         print(f'{num_1 - num_2}')
