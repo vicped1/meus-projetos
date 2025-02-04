@@ -1,4 +1,18 @@
-cpf_enviado = '61668309394'
+import re
+import sys
+
+entrada = input('CPF: ')
+cpf_enviado = re.sub(
+    r'[^0-9]',
+    '',
+    entrada)
+
+primeiro_caractere = entrada == entrada[0] * len(entrada)
+
+if primeiro_caractere:
+    print('Você digitou todos os numeros iguais')
+    sys.exit()
+
 nove_digito = cpf_enviado[:9]
 contador_regressivo_1 = 10
 dez_digito = cpf_enviado[:10]
