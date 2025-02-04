@@ -6,6 +6,7 @@ contador_regressivo_2 = 11
 
 resultado_digito_1 = 0
 resultado_digito_2 = 0
+
 for digito_1 in nove_digito:
     resultado_digito_1 += int(digito_1) * contador_regressivo_1
     contador_regressivo_1 -= 1
