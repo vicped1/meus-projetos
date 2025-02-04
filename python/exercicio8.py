@@ -23,3 +23,5 @@ cpf_gerado = f'{nove_digito}{digito_1}{digito_2}'
 
 if cpf_enviado == cpf_gerado:
     print(f'o cpf enviado {cpf_enviado} é válido')
+else:
+    print('cpf inválido')
