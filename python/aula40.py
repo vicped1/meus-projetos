@@ -1,4 +1,4 @@
 def oi():
     print('oi')
 
-oi():
+oi()
