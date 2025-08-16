@@ -5,7 +5,8 @@ entrada = input('CPF: ')
 cpf_enviado = re.sub(
     r'[^0-9]',
     '',
-    entrada)
+    entrada
+)
 
 primeiro_caractere = entrada == entrada[0] * len(entrada)
 
