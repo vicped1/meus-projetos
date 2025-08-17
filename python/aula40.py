@@ -1,4 +1,4 @@
-def oi():
-    print('oi')
+def oi(a, b, c):
+    print(a, b, c)
 
-oi()
+oi(1, 2, 3)
